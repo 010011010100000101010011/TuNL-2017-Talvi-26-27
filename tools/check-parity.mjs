@@ -30,7 +30,7 @@ function diffShape(a, b, p) {
   }
   if (a && typeof a === "object") {
     if (!b || typeof b !== "object") { errs.push(`${p}: object vs ${typeof b}`); return; }
-    for (const k of Object.keys(a)) if (!(k in b)) errs.push(`${p}.${k}: missing in fi`);
+    for (const k of Object.keys(a)) if (!(k in b) && a[k] !== undefined) errs.push(`${p}.${k}: missing in fi`);
     for (const k of Object.keys(b)) if (!(k in a)) errs.push(`${p}.${k}: extra in fi`);
     for (const k of Object.keys(a)) if (k in b) diffShape(a[k], b[k], `${p}.${k}`);
     return;
