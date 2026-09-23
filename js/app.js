@@ -16,7 +16,7 @@ function setupLangSwitch() {
   let page = location.pathname.split("/").pop().replace(/(\.fi)?\.html$/, "");
   if (!page) page = "index";
   el.innerHTML = ["en", "fi"].map(l =>
-    `<a href="${page}${l === "fi" ? ".fi" : ""}.html${location.search}" class="${l === LANG ? "on" : ""}">${l.toUpperCase()}</a>`).join("");
+    `<a href="${page}${l === "fi" ? ".fi" : ""}.html${location.search}" class="${l === LANG ? "on" : ""}">${l === "fi" ? "FI (beta)" : "EN"}</a>`).join("");
 }
 
 // ===== shared helpers =====
