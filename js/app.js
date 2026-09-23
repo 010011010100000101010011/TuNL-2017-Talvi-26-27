@@ -5,7 +5,7 @@ const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (m, k) => (k in o ? o[k] : m));
 
 function localizeLinks() {
   document.querySelectorAll("a[href]").forEach(a => {
-    const m = a.getAttribute("href").match(/^(?:\.\/)?(index|plan|exercises|session)\.html(\?|#|$)/);
+    const m = a.getAttribute("href").match(/^(?:\.\/)?(index|plan|exercises|session)\.html(?=\?|#|$)/);
     if (m) a.setAttribute("href", L(m[1]) + a.getAttribute("href").slice(m[0].length));
   });
 }
