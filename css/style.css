@@ -40,6 +40,10 @@ nav.top a.navlink {
   color: var(--dim); padding: 6px 12px; border-radius: 6px; font-size: .92rem;
 }
 nav.top a.navlink:hover, nav.top a.navlink.active { color: var(--txt); background: var(--card2); text-decoration: none; }
+.langsw { margin-left: auto; display: flex; gap: 2px; }
+.langsw a { color: var(--dim); padding: 4px 9px; border-radius: 6px; font-size: .78rem; font-weight: 700; letter-spacing: .5px; }
+.langsw a:hover { color: var(--txt); background: var(--card2); text-decoration: none; }
+.langsw a.on { color: var(--txt); background: var(--card2); }
 
 header.hero { padding: 42px 0 26px; }
 header.hero h1 { font-size: 2rem; line-height: 1.2; }
