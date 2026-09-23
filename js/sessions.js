@@ -134,7 +134,7 @@ const SESSIONS = {
 5: {
   mon: mon(5, { focus: "Core 2 with partner mirrors — focus under distraction", wu: "A", menu: "coreBase2",
     ball: "pasquare", play: "king",
-    intro: "Pairs: one holds/performs, partner mirrors and calls cues. U12s lock in harder when a friend is watching — same exercises, new demand.",
+    intro: "Pairs: one holds/performs, partner mirrors and calls cues. U10s lock in harder when a friend is watching — same exercises, new demand.",
     coachPoints: ["Partner's job: call 'hips!' the moment the line breaks — kind, instant, no laughing match", "March walk: arms glued overhead the whole length", "Keep rounds short: switch pairs halfway through the block"],
     debrief: "Best cue-caller award — voted by the group." }),
   sat: sat(5, { focus: "Legs 2 as a flowing circuit (first full circuit run)", wu: "A", leg: "lbsBase2", power: "prep1",
@@ -253,7 +253,7 @@ Object.assign(SESSIONS, {
         <li><b>Video:</b> same side-on angle as W6 for plank + glute-ham. Label files W12.</li>
       </ul>
       <p>Same two-station flow as W6: test booth (assistant) ↔ ball/play (coach), swap halfway. Scores private on the clipboard.</p>`,
-    groupNote: "Run it calm and short: a test that turns into a grind is the wrong test for U12.",
+    groupNote: "Run it calm and short: a test that turns into a grind is the wrong test for U10.",
     coachPoints: ["Compare players only to their own W6 film", "Perfect 20 s > wobbly 60 s — always", "Ball zone full fun: 1v1 tournament on the small goals"],
     debrief: "Hand out gate cards. Celebrate personal bests loudly." }),
   sat: sat(12, { focus: "Phase 2 finish — power benchmark + festival", wu: "B", leg: "lbsUni2", power: "powB",
@@ -385,7 +385,7 @@ Object.assign(SESSIONS, {
 20: {
   mon: mon(20, { focus: "Player-built menu × partner AMRAP (2 min, not endless)", wu: "C", menu: "coreExpress",
     ball: ["pasquare"], play: ["king"],
-    intro: "Their circuits return, now as a 2-minute AMRAP (as many rounds as possible) with a partner counting and form-policing. U12-safe: 2 minutes hard stop, and the partner can VETO a broken rep — veto counts as a save, not a loss.",
+    intro: "Their circuits return, now as a 2-minute AMRAP (as many rounds as possible) with a partner counting and form-policing. U10-safe: 2 minutes hard stop, and the partner can VETO a broken rep — veto counts as a save, not a loss.",
     coachPoints: ["AMRAP rule: quality reps only — a vetoed rep is uncounted, no drama", "Partner feedback: 'hips!' 'quiet!' — the cue vocabulary they learned all season", "Keep rounds to 2 minutes; recovery jog between"],
     debrief: "Best partner save of the day — nominate each other." }),
   sat: sat(20, { focus: "Combos 4-of-6 + Power C round 2", wu: "C", leg: "lbsExpress", power: "powC",

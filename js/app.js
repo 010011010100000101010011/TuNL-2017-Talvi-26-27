@@ -145,7 +145,7 @@ function renderSession() {
   html += SAFETY + GATE;
   html += `<div class="sess-nav noprint" style="margin-top:26px"><a href="plan.html">← All sessions</a><a href="index.html">Overview</a>${d === "mon" ? `<a href="session.html?w=${w}&d=sat">Saturday →</a>` : (w < 24 ? `<a href="session.html?w=${w + 1}&d=mon">Next week →</a>` : "")}</div>`;
 
-  document.title = `U12 W${w} ${d === "mon" ? "Mon" : "Sat"}`;
+  document.title = `U10 W${w} ${d === "mon" ? "Mon" : "Sat"}`;
   el.innerHTML = html;
 }
 
